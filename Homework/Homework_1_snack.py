@@ -19,4 +19,5 @@ print("Chocolate Bar:\t", chocolateBar, "\n",
       "Tax:\t\t", f"{tax:.2f}", "\n-------------------")
 
 total = f"{subtotal + tax:.2f}"
-print("Total: \t\t", total, "\n")
+print("Total: \t\t$", end="")
+print(total, "\n")
