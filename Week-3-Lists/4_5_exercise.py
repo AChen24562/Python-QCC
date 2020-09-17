@@ -24,5 +24,15 @@ print(n)
 
 del n[0]
 print(n)
-digit_2 = n.pop(1)
-print(digit_2)
+digit_value2 = n.pop(1)
+print(digit_value2, "\n")
+
+print(n)
+digit_value4 = n.pop(2)
+print(digit_value4, "\n")
+print(f"Sum of all removed numbers = {digit_value2 + digit_value4}")
+
+newNum = n.copy()
+n.clear()
+print(f"My Numbers: {n}")
+print(f"My new numbers: {newNum}")
