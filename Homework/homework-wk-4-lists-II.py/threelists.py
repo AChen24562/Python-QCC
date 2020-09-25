@@ -21,7 +21,7 @@ print(new_list)
 
 # Use slicing to inser to a third new list
 new_list2 = []
-sliced_list = new_list[-15: 15]
+sliced_list = new_list[-11: 11]
 for x in sliced_list:
     new_list2.append(x//2)
 print(new_list2)
