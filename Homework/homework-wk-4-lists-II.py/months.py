@@ -23,7 +23,7 @@ print()
 print('|' .join(three_letter)) """
 
 # Print 3-letter list
-for i in range(0, 11):
+for i in range(len(three_letter)):
     three_letter[i] = three_letter[i].title()
 print(three_letter)
 # Print original list
