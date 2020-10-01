@@ -1,3 +1,2 @@
-list = ["Hello"]
-print(list)
+list = "Hello"
 print(list.split())
