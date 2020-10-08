@@ -1,6 +1,6 @@
 vehicles = ['car', 'Truck', 'boat', 'PLANE']
 
-print(vehicles, '\n')
+print(f"Vehicles = {vehicles}", '\n')
 
 letter = input("Enter a search letter: ")
 
