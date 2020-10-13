@@ -1,3 +1,8 @@
+# Alex Chen
+# Prof. Sun
+# ET 574
+# If Statement Extra Credit
+
 # Original list of users
 list = ['tom', 'jerry', 'admin', 'George', 'DORA']
 
@@ -24,7 +29,7 @@ for new in new_users:
         print(f"\nSorry {new}, that username is taken")
     else:
         print(f"\nGreat {new} is avaialbe")
-        current_users.append(new)
+        list.append(new)
 
 
-print(current_users)
+print(list)

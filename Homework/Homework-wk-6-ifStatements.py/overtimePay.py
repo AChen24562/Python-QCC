@@ -1,9 +1,12 @@
+# Alex Chen
+# Prof. Sun
+# ET 574
+# If Statements
+
 hourlywage = float(input("Enter hourly wage: "))
 hoursWorked = float(input("Enter number of hours worked: "))
 totalwage = hourlywage * hoursWorked
 
-print(hourlywage)
-print(hoursWorked)
 
 if(hoursWorked > 40):
     overtimeWage = (40 * hourlywage) + (1.5 * hourlywage * (hoursWorked - 40))
