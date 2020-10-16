@@ -7,7 +7,7 @@ rank = {1: 'Freshman',
         3: 'Junior',
         4: 'Senior'}
 
-number_years = int(input("Enter the # of years you're in school: "))
+number_years = int(input("Enter the # of years you're in school <1 - 4>: "))
 
 
 if number_years in rank.keys():
