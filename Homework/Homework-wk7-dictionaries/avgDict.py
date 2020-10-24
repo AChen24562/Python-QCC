@@ -1,3 +1,7 @@
+# Alex Chen
+# Prof. Sun
+# ET 574
+
 grades = {'Exam 1': 85,
           'Exam 2': 99,
           'Exam 3': 100}
