@@ -2,9 +2,9 @@ from math import floor
 
 list = [1, 5, 6, 11, 12]
 
-target = 13  # x
+target = 11  # x
 length = len(list)  # j
-beginning = 1  # i
+beginning = 0  # i
 
 
 while beginning < length:
