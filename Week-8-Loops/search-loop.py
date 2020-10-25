@@ -2,12 +2,20 @@ from math import floor
 
 list = [1, 5, 6, 11, 12]
 
-target = 11
-length = len(list)
-print(length)
+target = 13  # x
+length = len(list)  # j
+beginning = 1  # i
 
-beginning = 1
+
 while beginning < length:
     m = floor((beginning + length)/2)
-    break
-print(m)
+    if target > list[m]:
+        beginning = m + 1
+    else:
+        length = m
+    print(m, length)
+
+if target == list[m]:
+    print(f"{target} is in position {m}")
+else:
+    print(f"{target} does not exist in {list}")
