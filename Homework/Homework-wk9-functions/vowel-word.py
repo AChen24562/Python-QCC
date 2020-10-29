@@ -3,6 +3,7 @@
 # Hw #1
 # Prof. Sun
 
+
 def isVowelWord(word):
     if 'a' and 'e' and 'i' and 'o' and 'u' in word.lower():
         print(f"{word} contains every vowel")

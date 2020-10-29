@@ -3,6 +3,7 @@
 # Hw #2
 # Prof. Sun
 
+
 def sumInput(num1):
     sum = 0
     list = []
