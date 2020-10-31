@@ -1,6 +1,6 @@
 # Alex Chen
 # ET 574, Functions
-# Hw #1
+# Extra Credit
 # Prof. Sun
 
 def isVowelWord(word):
@@ -13,7 +13,7 @@ def isVowelWord(word):
 
 
 word = input("Enter a word: ")
-if isVowelWord(word) is True:
+if isVowelWord(word):
     print(f"{word} is a vowel word")
 else:
     print(f"{word} is NOT a vowel word")

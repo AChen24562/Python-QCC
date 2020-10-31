@@ -1,6 +1,6 @@
 # Alex Chen
 # ET 574, Functions
-# Hw #2
+# Prog 2
 # Prof. Sun
 
 
