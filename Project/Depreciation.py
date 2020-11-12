@@ -19,7 +19,7 @@ def info():
     Year of purchase: {year}
     Cost: ${cost}
     Estimated Life: {life}
-    Method of depreciation: {method} ''')
+    Method of depreciation: {method} \n''')
 
     if method == "Straight-Line":
         depreciation_SL(year, cost, life)
@@ -27,7 +27,8 @@ def info():
 
 def depreciation_SL(year, cost, life):
     print("\tValue At Beg. of Yr.\tAmount Deprec During Year\tTotal Deprec to End of year")
-
+    for x in range(year):
+        depreciation_value =  
 
 def main():
     info()
