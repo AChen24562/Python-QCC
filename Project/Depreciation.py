@@ -26,9 +26,17 @@ def info():
 
 
 def depreciation_SL(year, cost, life):
-    print("\tValue At Beg. of Yr.\tAmount Deprec During Year\tTotal Deprec to End of year")
-    for x in range(year):
-        depreciation_value =  
+    print("\tValue At Beg. of Yr.".ljust(40),end="")
+    print("\tAmount Depre During Year".center(40),end="")
+    print()
+    counter_total_dep = 0
+    adjusted_cost = cost
+    for x in range(1, life + 1):
+        depreciation_value = (1 / life) * cost
+        counter_total_dep += depreciation_value
+        print(f"{year}\t{adjusted_cost:.2f}\t{depreciation_value:.2f}\t{counter_total_dep:.2f}")
+        adjusted_cost -= depreciation_value
+
 
 def main():
     info()
