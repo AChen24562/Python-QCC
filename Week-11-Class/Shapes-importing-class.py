@@ -1,5 +1,4 @@
-from Rectangle_class import Rectangle, Circle
-import math
+from Shapes_Class import Rectangle, Circle
 
 r1 = Rectangle(5, 3)
 print(r1.display())
@@ -20,7 +19,9 @@ print()
 print(r1.display())
 r1.area()
 
+
 # Circle
+# ---------------------------------
 # When Circle Radius is default
 print("\nCircle:")
 c1 = Circle()
