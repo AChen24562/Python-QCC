@@ -10,7 +10,4 @@ class Rectangle:
 
 
 r1 = Rectangle(4, 5)
-r2 = Rectangle()
-
-print(r1.display())
-print(r2.display())
+r1.display()
