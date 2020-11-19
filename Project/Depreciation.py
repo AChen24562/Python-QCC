@@ -27,7 +27,7 @@ def depreciation_SL(year, cost, life):
     for x in range(1, life + 1):
         depreciation_value = (1 / life) * cost
         counter_total_dep += depreciation_value
-        print(f"{year}\t{round(adjusted_cost,2): <20}{round(depreciation_value,2): >28}{round(counter_total_dep,2): >33}")
+        print(f"{year}\t{adjusted_cost: <20,.2f}{depreciation_value: >28,.2f}{counter_total_dep: >33,.2f}")
         adjusted_cost -= depreciation_value
         year += 1
 
@@ -43,9 +43,9 @@ def depreciation_DDB(year, cost, life):
         if x == life:
             depreciation_value = adjusted_cost
             counter_total_dep = cost
-            print(f"{year}\t{round(adjusted_cost,2): <20}{round(depreciation_value,2): >28}{round(counter_total_dep,2): >33}")
+            print(f"{year}\t{adjusted_cost: <20,.2f}{depreciation_value: >28,.2f}{counter_total_dep: >33,.2f}")
             break
-        print(f"{year}\t{round(adjusted_cost,2): <20}{round(depreciation_value,2): >28}{round(counter_total_dep,2): >33}")
+        print(f"{year}\t{adjusted_cost: <20,.2f}{depreciation_value: >28,.2f}{counter_total_dep: >33,.2f}")
         adjusted_cost -= depreciation_value
         year += 1
 
