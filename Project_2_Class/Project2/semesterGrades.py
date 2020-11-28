@@ -23,13 +23,13 @@ def obtainListOfStudents():
 
         if category.upper() == "LG":
             inOutState = input("Is the student in-state?<Y/N> ")  # Askes for state status of student
-            st = studentWithStatus.LGstudent(name, midterm, final, id, inOutState)
+            st = studentWithStatus.LGstudent(name.title(), midterm, final, id, inOutState)
         elif category.upper() == "PF":
             fullTime = input("Is the student full time? (Y/N)")
-            st = studentWithStatus.PFstudent(name, midterm, final, id, fullTime)
+            st = studentWithStatus.PFstudent(name.title(), midterm, final, id, fullTime)
         else:
             fullTime = input("Is the student full time? (Y/N)")
-            st = studentWithStatus.InternshipStudent(name, midterm, final, id, fullTime)
+            st = studentWithStatus.InternshipStudent(name.title(), midterm, final, id, fullTime)
 
         listOfStudents.append(st)
         carryOn = input("\nDo you want to continue (Y/N)? ")
