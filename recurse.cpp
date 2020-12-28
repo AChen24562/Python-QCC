@@ -3,7 +3,7 @@
 using namespace std;
 
 int recurs(int num){
-  if(num == 1){
+  if(num < 1){
     cout << num;
   }
 
