@@ -20,7 +20,6 @@ int sum = 0;
 add_digits(num, sum);
 
 
-asd
 
       return 0;
 }
